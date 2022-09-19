@@ -1,0 +1,65 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-family: Trebuchet MS;
+	background: rgb(8, 179, 247);
+}
+
+.wrap {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 60%;
+}
+
+.informBlock {
+	width: 30%;
+	height: 300px;
+	background: #faf8f8;
+	padding: 30px;
+	box-sizing: border-box;
+	transition: .4s;
+}
+
+.informBlock i {
+	color: #000000;
+	font-size: 35px;
+	margin-top: 20px;
+	transition: .4s;
+}
+
+.mainText {
+	color: rgb(0, 0, 0);
+	margin: 55px 0 0 0;
+	font-size: 20px;
+}
+
+.underlineBlock {
+	height: 0;
+	width: 35px;
+	border-top: 2px solid #e9204f;
+	margin-top: 10px;
+	transition: .4s;
+}
+
+.secondText {
+	color: rgb(0, 0, 0);
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+.informBlock:hover {
+	background: #e9204f;
+}
+
+.informBlock:hover i {
+	color: rgb(0, 0, 0);
+}
+
+.informBlock:hover .underlineBlock {
+	border-color: rgb(0, 0, 0);
+}
